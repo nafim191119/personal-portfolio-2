@@ -496,16 +496,19 @@ h3.my-profession {
     top: 0;
     background-color: var(--skin-color);
 }
-.about .about-content .timeline .timeline-date{
+
+.about .about-content .timeline .timeline-date {
     font-weight: 700;
     font-size: 15px;
     margin-bottom: 12px;
     color: var(--text-black-700);
     font-family: 'Poppins';
 }
-.about .about-content .timeline .timeline-date .fa{
+
+.about .about-content .timeline .timeline-date .fa {
     margin-right: 10px;
 }
+
 .about .about-content .timeline .timeline-title {
     font-weight: 700;
     font-size: 18px;
@@ -514,7 +517,8 @@ h3.my-profession {
     text-transform: capitalize;
     color: var(--text-black-900);
 }
-.about .about-content .timeline .timeline-text{
+
+.about .about-content .timeline .timeline-text {
     line-height: 25px;
     font-size: 16px;
     text-align: justify;
@@ -523,15 +527,17 @@ h3.my-profession {
 }
 
 /* Service */
-.service .container{
+.service .container {
     padding-bottom: 40px;
 }
+
 .service .section-item {
     margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
 }
-.service .service-item .service-item-inner{
+
+.service .service-item .service-item-inner {
     background-color: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
     border-radius: 10px;
@@ -539,9 +545,11 @@ h3.my-profession {
     text-align: center;
     transition: all 0.3s ease;
 }
-.service .service-item .service-item-inner:hover{
+
+.service .service-item .service-item-inner:hover {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
+
 .service .service-item .service-item-inner .icon {
     height: 60px;
     width: 60px;
@@ -551,28 +559,46 @@ h3.my-profession {
     text-align: center;
     transition: all 0.3s ease;
 }
-.service .service-item .service-item-inner .icon .fa{
+
+.service .service-item .service-item-inner .icon .fa {
     font-size: 40px;
     line-height: 60px;
     color: var(--skin-color);
     transition: all 0.3s ease;
 }
-.service .service-item .service-item-inner:hover .icon{
+
+.service .service-item .service-item-inner:hover .icon {
     background-color: var(--skin-color);
 }
-.service .service-item .service-item-inner:hover .icon .fa{
+
+.service .service-item .service-item-inner:hover .icon .fa {
     font-size: 25px;
     color: white;
 }
-.service .service-item .service-item-inner h4{
-    font-size: 18px;
+
+.service .service-item .service-item-inner h4 {
+    font-size: 28px;
     margin-bottom: 15px;
     color: var(--text-black-900);
     font-weight: 700;
     text-transform: capitalize;
 }
-.service .service-item .service-item-inner p{
+
+.service .service-item .service-item-inner p {
     font-size: 16px;
     color: var(--text-black-700);
     line-height: 25px;
+}
+
+.grid-col {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 30px;
+}
+
+.grid-col>div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
 }
